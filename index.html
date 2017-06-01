@@ -1,0 +1,626 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Proyecto Final</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<link rel="stylesheet" href="css/tema-app10.1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<style type="text/css">
+body,td,th {
+	color: #FFF;
+}
+</style>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body >
+  <div data-role="page" id="Principal" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>CBTIS 16 </h1>
+   </div>
+   <div data-role="main" class="ui-content">
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/cbtis.jpg" alt="cbtis" title="cbtis" id="wows1_0"/></li>
+		<li><img src="data1/images/cbtis2.jpg" alt="cbtis2" title="cbtis2" id="wows1_1"/></li>
+		<li><img src="data1/images/cbtis3.jpg" alt="cbtis3" title="cbtis3" id="wows1_2"/></li>
+		<li><img src="data1/images/cbtis4.jpg" alt="cbtis4" title="cbtis4" id="wows1_3"/></li>
+		<li><img src="data1/images/cbtis5.jpg" alt="cbtis5" title="cbtis5" id="wows1_4"/></li>
+		<li><img src="data1/images/cbtis6.jpg" alt="cbtis6" title="cbtis6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/cbtis7.jpg" alt="image slider" title="cbtis7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/cbtis8.jpg" alt="cbtis8" title="cbtis8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="cbtis"><span><img src="data1/tooltips/cbtis.jpg" alt="cbtis"/>1</span></a>
+		<a href="#" title="cbtis2"><span><img src="data1/tooltips/cbtis2.jpg" alt="cbtis2"/>2</span></a>
+		<a href="#" title="cbtis3"><span><img src="data1/tooltips/cbtis3.jpg" alt="cbtis3"/>3</span></a>
+		<a href="#" title="cbtis4"><span><img src="data1/tooltips/cbtis4.jpg" alt="cbtis4"/>4</span></a>
+		<a href="#" title="cbtis5"><span><img src="data1/tooltips/cbtis5.jpg" alt="cbtis5"/>5</span></a>
+		<a href="#" title="cbtis6"><span><img src="data1/tooltips/cbtis6.jpg" alt="cbtis6"/>6</span></a>
+		<a href="#" title="cbtis7"><span><img src="data1/tooltips/cbtis7.jpg" alt="cbtis7"/>7</span></a>
+		<a href="#" title="cbtis8"><span><img src="data1/tooltips/cbtis8.jpg" alt="cbtis8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+    <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>¿Qué es DGETI? </h2>
+           <p> Se muestra información sobre el tema. </p>
+        </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>CBTIS 16</h2>
+          <p> Se muestra información sobre el plantel. </p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Requisitos para ingresar</h2>
+           <p>  Se muestra información sobre los requisitos que se necesitan para entrar en el plantel. </p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Instalaciones </h2>
+           <p> Se muestra información las instalaciones del plantel. </p>
+        </a>
+      </li>     
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Especialidades en el Plantel</h2>
+           <p>  Se muestra información sobre las especialidades que hay en el plantel. </p>
+        </a>
+       </li>               
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Perfil de Egreso  </h2>
+           <p> Se muestra información del perfil de egreso de los alumnoos.</p>
+        </a>
+       </li>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Docentes </h2>
+           <p> Se muestra información de los docentes.</p>
+        </a>
+       </li> 
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Datos del desarrollador  </h2>
+           <p> Se muestra información del autor de la aplicación.</p>
+        </a>
+       </li> 
+      </ul>  
+    </div>
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <div>
+        <img src="imagenes/logo.png" width="50" height="50">
+      </div>  
+      <div>
+           <h4>Proyecto Final </h4>
+         <h4> Juan Luis Vázquez Morales </h4>
+      </div>
+    </div> 
+    </div> 
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>DGETI </h1>
+     </div>
+     <div data-role="content" align="left">
+     <h2 align="left"> ¿Qué es?  </h2>
+       <p align="justify"> 
+ La Dirección General de Educación Tecnológica Industrial (DGETI) es una dependencia adscrita a la Subsecretaría de Educación Media Superior (SEMS) que ofrece el servicio educativo de nivel medio superior tecnológico.
+
+Actualmente, la DGETI es la institución de educación media superior tecnológica más grande del país, con una infraestructura física de 1,366 Centros  Educativos a Nivel Nacional, de los cuales, 168 son Centros de Estudios Tecnológico Industriales y de Servicios (CETIS) y 271 Centros de Bachillerato Tecnológico Industrial y de Servicios (CBTIS).  
+
+Además, ha promovido la creación de al menos 288 Centros de Estudios Científicos y Tecnológicos en los Estados (CECYTES), que operan bajo un sistema descentralizado.
+       </p>
+       <h2 align="left"> Objetivo </h2>
+       <p align="justify"> Formar bachilleres técnicos y profesionales técnicos que desarrollen, fortalezcan y preserven una cultura tecnológica y una infraestructura industrial y de servicios, que coadyuven a satisfacer las necesidades económicas y sociales del país.</p>
+        <h2 align="left"> Servicios educativos </h2>
+       <p align="left"> La Dirección General de Educación Tecnológica Industrial ofrece servicios educativos a nivel medio superior tecnológico a través de 1,366 Centros  Educativos a Nivel Nacional.</p>
+       <ul>
+        <li>271 Centros de Bachillerato Tecnológico Industrial y de Servicios (CBTIS) y </li>
+        <li> 168 Centros de Estudios Tecnológicos Industrial y de Servicios (CETIS) </li>
+        <li> 546 Colegios de Estudios Científicos y Tecnológicos (CECYTES), que operan bajo un sistema descentralizado </li>
+        <li>381 Centros de Educación Media Superior a Distancia (EMASAD)</li>
+        </ul>
+         <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/sep.jpg',1)"><img src="imagenes/dgeti.jpg" width="100%" height="100%" id="Image7"></a>
+         <div align="center">
+         <h2>Para mas información:</h2>
+        <a href="http://www.dgeti.sep.gob.mx/" target="_self">Ir a la Página Web DGETI</a>
+         </div>
+           </div>
+      </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+          <h4> Juan Luis Vázquez Morales </h4>
+        <h4>Proyecto Final </h4>
+        <img src="imagenes/logo.png" width="50" height="50">
+     </div>
+    </div>
+   </div>
+   
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1> CBTIS 16 </h1>
+     </div>
+     <div data-role="content" align="center">
+       <h2 > 
+        Misión
+       </h2>
+       <p align="justify">Formar personas con conocimientos tecnológicos en las áreas industrial, comercial y de servicios, a través de la preparación de profesionales técnicos y bachilleres, con el fin de contribuir al desarrollo sustentable del país. </p>
+       <h2>Visión </h2>
+       <p align="justify">Ser una institución que proporcione una formación integral y pertinente de acuerdo a las exigencias derivadas dse la competitividad mundial y el entorno y vocación local, además de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la población que demanda este nivel educativo en nuestro plantel.
+  </p>
+         <div>
+         <h2> Ubicación </h2>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.630910372328!2d-98.42659758510148!3d18.903448287187203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfb47405555555%3A0x19bb49f598a8846f!2sCBTis+No+016!5e0!3m2!1ses!2smx!4v1496085381487" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+       <h2> Duración </h2>
+       <p> 3 años</p>
+       <h2> Modalidad </h2>
+       <p align="justify"> Educación Escolarizada: Esta modalidad es una formación bivalente, por una parte se egresa con una carrera técnica con los conocimientos, habilidades y destrezas para integrarse al sector productivo como técnico profesional y por otra parte ofrece al egresado la posibilidad de continuar sus estudios del nivel superior.</p>
+        <h2> Ventajas que ofrece esta modalidad </h2>
+      </div>
+      <div align="left"> 
+       <ul>
+      <li>Las materias propedéuticas que se cursan son prácticamente las mismas que en el bachillerato general, por lo que se prepara para estudiar una carrera profesional del nivel superior. </li>
+      <li>El plan de estudios incluye módulos para la formación tecnológica que te preparan como técnico del nivel medio superior en algunas de las carreras técnicas que se ofertan. </li>
+      <li>Al concluir cada módulo, los estudiantes reciben un certificado. </li>
+      <li> Estos certificados se plantean como “salidas laterales”, que permiten que los estudiantes tengan reconocimiento por sus estudios, aun cuando el estudiante no complete todo el plan de estudios del nivel medio superior. </li>
+      </ul>
+         <div align="center">
+          <img src="imagenes/plantel.jpg" width="100%" height="100%">
+               <h2>Pagina de Facebook y CBTIS:</h2>
+        <a href="https://www.facebook.com/cbtis16atlixco/" target="_self">Ir a la Página de Facebook</a>
+        <br>
+        <a href="http://sems.gob.mx/swb/sems/cbtis" target="_self">Ir a la Página de CBTIS</a>
+           </div>
+      </div>
+      </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+       <h4> Aplicación diez, JLVM </h4>
+       <h4>Proyecto Final </h4>
+        <img src="imagenes/logo.png" width="50" height="50">
+     </div>
+      </div>    
+     </div> 
+     
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Requisitos para Ingresar al Plantel </h1>
+     </div>
+     <div align="center">
+     <h2> Estos son los requisitos para poder solicitar ficha: </h2>
+     <ul>
+     <li> Constancia de estudios de ser alumno regular de 3er. año de secundaria</li>
+     <li> Una copia de acta de nacimiento </li>
+     <li>Una copia del CURP. </li>
+     <li> Dos fotografias tamaño infantil</li>
+     <li> Copia del IFE del padre o tutor</li>
+     <li> Copia del comprobante de domicilio</li>
+      <li> Costo de la ficha $_____</li>
+     </ul>
+     <div align="center">
+       <h2> Registro de aspirantes a partir del 30 de Enero del 2017</h2>
+       <h2> hasta el 22 de Junio del 2017. </h2>
+       <h2> En un horario de 9:00 a 13:00 hrs. </h2>
+     </div>
+      <div align="center">
+        <img src="imagenes/cbtis.jpg" width="100%" height="100%">
+       <h1> ¡Integrate al conocimiento! </h1>
+        <h2>Para mas información:</h2>
+        <a href="http://www.cbtis016.edu.mx/index.php" target="_self">Ir a la Página Web</a>
+      </div>
+      </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+         <h4> Juan Luis Vázquez Morales </h4>
+       <h4>Proyecto Final </h4>
+        <img src="imagenes/logo.png" width="50" height="50">
+     </div>
+      </div>    
+       </div>    
+    </div> 
+    
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Instalaciones </h1>
+     </div>  
+     <div data-role="content" align="left">
+         <div>
+          <h3 align="left">
+           Estos son las instalaciones que cuenta el plantel:
+         </div>
+          <ul>
+           <li>Aulas  </li>
+           <li> Sanitarios limpios</li>
+           <li> Zona de estacionamiento para alumnos y maestros</li>
+           <li> Laboratorios Multifunsionales</li>
+           <li> Laboratiros de Computo</li>
+           <li> Taller de Mecanica Industrial</li>
+           <li> Taller de Electricidad</li>
+           <li> Zona para ceremonia con techado</li>
+           <li> Canchas de Futbol, Basquetbol y Voleybol</li>
+           <li> Aula para conferencias</li>
+           <li> Dirección General y administrativo </li>
+           <li> Cooperativa Escolar</li>
+           <li> Areas Verdes</li>
+          </ul> 
+         </div>
+         <div data-role="content" align="center">
+          <h2> Galeria </h2>
+           <div>
+           <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/tallermecanica.jpg" alt="taller-mecanica" title="taller-mecanica" id="wows2_0"/></li>
+		<li><img src="data2/images/tallerelectricidad.jpg" alt="taller-electricidad" title="taller-electricidad" id="wows2_1"/></li>
+		<li><img src="data2/images/laboratorioscomputo.jpg" alt="laboratorios-computo" title="laboratorios-computo" id="wows2_2"/></li>
+		<li><img src="data2/images/laboratoriosmultifunsional.jpg" alt="laboratorios-multifunsional" title="laboratorios-multifunsional" id="wows2_3"/></li>
+		<li><img src="data2/images/ceremonia.jpg" alt="ceremonia" title="ceremonia" id="wows2_4"/></li>
+		<li><img src="data2/images/sanitarios.jpg" alt="sanitarios" title="sanitarios" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/estacionamiento.jpg" alt="wowslider.com" title="estacionamiento" id="wows2_6"/></a></li>
+		<li><img src="data2/images/canchasfutbol.jpg" alt="canchas-futbol" title="canchas-futbol" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="taller-mecanica"><span><img src="data2/tooltips/tallermecanica.jpg" alt="taller-mecanica"/>1</span></a>
+		<a href="#" title="taller-electricidad"><span><img src="data2/tooltips/tallerelectricidad.jpg" alt="taller-electricidad"/>2</span></a>
+		<a href="#" title="laboratorios-computo"><span><img src="data2/tooltips/laboratorioscomputo.jpg" alt="laboratorios-computo"/>3</span></a>
+		<a href="#" title="laboratorios-multifunsional"><span><img src="data2/tooltips/laboratoriosmultifunsional.jpg" alt="laboratorios-multifunsional"/>4</span></a>
+		<a href="#" title="ceremonia"><span><img src="data2/tooltips/ceremonia.jpg" alt="ceremonia"/>5</span></a>
+		<a href="#" title="sanitarios"><span><img src="data2/tooltips/sanitarios.jpg" alt="sanitarios"/>6</span></a>
+		<a href="#" title="estacionamiento"><span><img src="data2/tooltips/estacionamiento.jpg" alt="estacionamiento"/>7</span></a>
+		<a href="#" title="canchas-futbol"><span><img src="data2/tooltips/canchasfutbol.jpg" alt="canchas-futbol"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+           </div>
+         </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+          <h4> Juan Luis Vázquez Morales </h4>
+        <h4>Proyecto Final </h4>
+         <img src="imagenes/logo.png" width="50" height="50">
+      </div>
+       </div>    
+    </div>
+     
+    <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> Especialidades en el plantel </h1>
+     </div>  
+     <div data-role="content" align="center">
+         <div data-role="collapsible" data-content-theme="false">
+             <h1>Electricidad </h1>
+             <div> 
+             <h2>Técnico en Electricidad:</h2>
+              <p align="justify">La carrera de Técnico en Electricidad permite al estudiante sustentar la demanda de ocupación de Técnicos Electricistas en el sector productivo y de servicios, capaz de diseñar y realizar instalaciones eléctricas residenciales y comerciales, así como proporcionar mantenimiento a máquinas eléctricas. </p>
+              <div align="center">
+               <h2 align="left"> Competencias Profesionales: </h2>
+                 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/electricidad.jpg',1)"><img src="imagenes/mapa-electricidad.jpg" width="100%" height="100%" id="Image8"></a>
+                <h2 align="left"> Oportunidades de inserción laboral: </h2>
+               <p align="justify">Todas estas competencias posibilitan al egresado su incorporación al mundo laboral o desarrollar procesos productivos independientes, de acuerdo con sus intereses profesionales o las necesidades en su entorno social. </p>
+              </div>
+             </div>
+         </div>
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Mecanica Industrial </h1>
+            <div> 
+             <h2>Técnico en Mecanica Industrial:</h2>
+              <p align="justify">Profesionista que da mantenimiento a los sistemas de transmisión de potencia utilizando las máquinas herramientas convencionales, de control numérico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de los procesos de ajuste de piezas mecánicas.</p>
+              <div align="center">
+               <h2 align="left"> Competencias Profesionales: </h2>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/mecanica.jpg',1)"><img src="imagenes/mapa-mecanica.jpg" width="100%" height="100%" id="Image9"></a>
+               <h2 align="left"> Oportunidades de inserción laboral: </h2>
+               <p align="justify"> Industrias de transformación y procesos como: Textiles, del plástico, petroleras, metalmecánica, automotriz, pesqueras, mineras, siderúrgicas, agrícolas, alimenticia, química, de muebles, forestal, papelera, gráfica y en general todo tipo de industria de la producción y manufacturera que utilice maquinaria entre otras.</p>
+              </div>
+             </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Programación</h1>
+            <div> 
+             <h2>Técnico en Programación:</h2>
+              <p align="justify">Persona con conocimientos, habilidades y actitudes, capaz de ingresar a empresas de desarrollo de software, diseño gráfico, mantenimiento, outsourcing. </p>
+               <div align="center">
+               <h2 align="left"> Competencias Profesionales: </h2>
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/programacion.jpg',1)"><img src="imagenes/mapa-progra.jpg" width="100%" height="100%" id="Image10"></a>
+                <h2 align="left"> Oportunidades de inserción laboral: </h2>
+                <div align="left"> 
+                <ul>
+                 <li> Desarrolladores de software</li>
+                 <li>Analistas de sistemas </li>
+                 <li>Analista de programas de cómputo </li>
+                 <li>Programador de sistemas de cómputo </li>
+                 <li>  Edición de software y edición de software integrada con la reproducción</li>
+                 <li> Escuelas de computación del sector privado </li>
+                 <li> Servicios de diseño de sistemas de cómputo y servicios relacionados </li>
+                 <li> Escuelas de computación del sector público</li>
+                </ul> 
+                </div>
+              </div>
+             </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Logística</h1>
+            <div> 
+            <h2> Técnico en Logística: </h2>
+              <p align="justify">Ofrece las competencias profesionales que permiten al estudiante realizar actividades dirigidas a la administración de bienes, planificando los suministros destinados al almacenamiento de manera manual y electrónica, la organización de los nodos logísticos para el transporte de mercancías, así como proveer los servicios y atención al cliente sobre los movimientos y los costos de la cadena logística. </p>
+              <div align="center">
+               <h2 align="left"> Competencias Profesionales: </h2>
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/logistica.jpg',1)"><img src="imagenes/mapa-logistica.jpg" width="100%" height="100%" id="Image11"></a>
+                <h2 align="left"> Oportunidades de inserción laboral: </h2>
+               <p align="justify">Nuestro país presenta una amplia diversidad de procesos de producción, desde los que utilizan tecnología moderna, hasta sistemas tradicionales; este hecho contribuye a diversificar las ocupaciones, los Comités interinstitucionales de Formación Profesional decidieron utilizar los siguientes: Sectores industriales, comerciales y de servicios, públicos o privados: Escuelas, constructoras, fábricas, centros comerciales, hospitales, inmobiliarias, hoteles, instituciones de crédito, despachos contables y tiendas de autoservicio. Autoempleo </p>
+              </div>
+             </div>
+           </div>
+            <div data-role="collapsible" data-content-theme="false">
+             <h1> CAED (Centro de Atención para Estudiantes con Discapacidad)</h1>
+            <div> 
+            <h2> CAED </h2>
+              <p align="justify">El Centro de Atención, ofrece el servicio de Bachillerato no escolarizado para estudiantes con discapacidad (BNEED). Es un programa que ofrece estudios de nivel medio superior para quienes tienen algún tipo de discapacidad: auditiva, motriz, visual o intelectual y desean continuar su preparación académica. </p>
+              <div align="center">
+               <h2 align="left"> Modelo Educativo: </h2>
+               <p align="justify">El BNEED es un modelo educativo flexible, permite que los estudiantes ingresen sin necesidad de un examen de admisión, no se condiciona el límite de edad, ni el tiempo que se emplee para acreditar las asignaturas. En esta modalidad educativa estudias por tu cuenta apoyándote en los libros de la preparatoria abierta, y puedes acudir a las asesorías que se imparten en los Centros de Atención para Personas con Discapacidad (CAED) ubicados en las Aulas Gilberto Rincón Gallardo, que se encuentran en los estados de la República Mexicana.  </p>
+               <img src="imagenes/caed.JPG" width="100%" height="100%">
+                <h2 align="left"> Valores CAED: </h2>
+                <img src="imagenes/valores.JPG" width="100%" height="100%">
+              </div>
+             </div>
+           </div>
+            <div align="center">
+              <h2>Para mayor Información: </h2>
+            <div style="width:100%"> 
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+             <li class="ui-first-child ui-last-child">
+               <a href="http://www.dgeti.sep.gob.mx/index.php/oferta-educativa-y-planteles/83-carreras-y-o-especialidades" target="_self" data-role="button" id="beep">
+                 <h2> Ir a la página par ver las especialidades  DGETI </h2>
+               </a>
+             </li>   
+           </ul>
+        </div>   
+          <div style="width:100%"> 
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+             <li class="ui-first-child ui-last-child">
+               <a href="http://diccionario.sensagent.com/centros%20de%20bachillerato%20tecnol%C3%B3gico%20industrial%20y%20de%20servicios/es-es/" target="_self" data-role="button" id="beep">
+                 <h2> Ir a la página de para ver plan de estudios </h2>
+               </a>
+             </li>   
+           </ul>
+        </div>   
+         </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Juan Luis Vázquez Morales </h4>
+        <h4>Proyecto Final </h4>
+         <img src="imagenes/logo.png" width="50" height="50">
+      </div>
+      </div>    
+     </div> 
+      
+     <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1> Perfil de Egreso </h1>
+     </div>  
+     <div data-role="content" align="left">
+        <div>
+         <h1> Electricidad: </h2>
+         <p align="justify"> Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Electricidad.</p>
+         <ul>
+           <li> Desarrolla instalaciones eléctricas residenciales y comerciales.</li>
+           <li>  Mantiene los motores y generadores de CA y CC. </li>
+           <li> Mantiene en operación los circuitos de control electromagnético y electrónico. </li>
+           <li>  Mantiene los sistemas de iluminación y de energía renovable. </li>
+           <li>  Mantiene instalaciones eléctricas de media y baja tensión. </li>
+          </ul> 
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/taller-electricidad.jpg',1)"><img src="imagenes/electricidad2.jpg" width="100%" height="100%" id="Image3"></a>
+         </div>
+         <div>
+          <h1> Mecanica Industrial: </h2>
+          <p align="justify"> Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Mecánica Industrial:</p>
+           <ul>
+           <li> Suelda y ajusta piezas mecánicas.</li>
+           <li> Maquina piezas mecánicas en talador y torno. </li>
+           <li> Maquina piezas mecánicas en fresadora, rectificadora y cepillo.</li>
+           <li> Maquina piezas mecánicas por CNC. </li>
+           <li> Mantiene sistemas de transmisión de potencia.</li>
+          </ul> 
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/taller-mecanica.jpg',1)"><img src="imagenes/mecanica1.jpg" width="100%" height="100%" id="Image5"></a>
+         </div>
+         <div>
+          <h1> Programación: </h2>
+          <p align="justify"> La formación que ofrece la carrera de Técnico en programación permite al egresado, a través de la articulación de saberes de diversos campos, realizar actividades dirigidas a la:</p>
+          <ul>
+           <li> Instalación y desarrollo de software de aplicación utilizando programación estructurada y orientada a objetos en ambientes web y móviles, con almacenamiento persistente de datos.</li>
+           <li> Así como la configuración y administración de plataforma e-learning y Comercio electrónico. </li>
+          </ul> 
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/cbtis6.jpg',1)"><img src="imagenes/programacion1.jpg" width="100%" height="100%" id="Image4"></a>
+         </div>
+         <div>
+          <h1> Logística: </h2>
+          <p align="justify"> Durante el proceso de formación de los cinco módulos, el estudiante desarrollara o reforzará las siguientes competencias profesionales:</p>
+                <ul>
+                 <li> Supervisa el proceso de suministrio de bienes.</li>
+                 <li>Apoya el proceso de administración al servicio de almacenaje de bienes. </li>
+                 <li> Organiza el transporte de mercancías.  </li>
+                 <li> Atencion al proceso</li>
+                 <li> Planeación y organización</li>
+                 <li> Ética profesional</li>
+                 <li> Comunicación efectiva</li>
+                 <li> Trabajo en equipo</li>
+                 <li> Atención al cliente</li>
+                 <li> Relaciones interpersonales</li>
+                </ul> 
+                  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/logistica2.jpg',1)"><img src="imagenes/logistica3.jpg" width="100%" height="100%" id="Image6"></a>
+         </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+          <h4> Juan Luis Vázquez Morales </h4>
+        <h4>Proyecto Final </h4>
+         <img src="imagenes/logo.png" width="50" height="50">
+      </div>
+      </div>    
+       </div>    
+      <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Docentes</h1>
+     </div>
+     <div data-role="collapsible" data-content-theme="false">
+     <h1> Docentes</h1>
+       <div align="center">
+         <h2> Calendario de Actividades </h2>
+         <div style="width:100%"> 
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+             <li class="ui-first-child ui-last-child">
+               <a href="https://drive.google.com/file/d/0B-Yz_u3SAFZIak52YVNsODdfTDg/view" target="_self" data-role="button" id="beep">
+                 <h2> Ir al Calendario de Actividades </h2>
+               </a>
+             </li>   
+           </ul>
+        </div>   
+       </div> 
+        <div align="center">
+         <h2> Calendario SEP </h2>
+         <div style="width:100%"> 
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+             <li class="ui-first-child ui-last-child">
+               <a href="https://www.gob.mx/cms/uploads/attachment/file/97534/Calendario_escolar_200_dias.pdf" target="_self" data-role="button" id="beep">
+                 <h2> Ir al Calendario SEP </h2>
+               </a>
+             </li>   
+           </ul>
+        </div>   
+       </div> 
+        <div align="center">
+         <h2>Planes y Programas de estudio </h2>
+         <div style="width:100%"> 
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+             <li class="ui-first-child ui-last-child">
+               <a href="http://cosdac.sems.gob.mx/portal/index.php/estudiar-trabajar/programas-de-estudios-vigentes" target="_self" data-role="button" id="beep">
+                 <h2> Ir al la página par ver los planes de estudio de los docentes </h2>
+               </a>
+             </li>   
+           </ul>
+        </div>   
+       </div> 
+        </div> 
+     <div data-role="collapsible" data-content-theme="false">
+     <h1> Páginas educativas para los alumnos</h1>
+       <div align="center">
+       <h2>Estas páginas educativas ayudan a mejorar a los alumnos en diferentes materias y lo hace de una forma dinamica para que asi los alumnos puedan aprender y lo disfruten. </h2>
+          <h2>Estas son algunas páginas: </h2>
+         <h2> Plataforma DAM </h2>
+         <div style="width:100%"> 
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+             <li class="ui-first-child ui-last-child">
+               <a href="https://damcbtis16.milaulas.com/" target="_self" data-role="button" id="beep">
+                 <h2> Ir a la plataforma </h2>
+               </a>
+             </li>   
+           </ul>
+        </div>   
+       </div> 
+        <div align="center">
+         <h2> Duolingo</h2>
+         <div style="width:100%"> 
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+             <li class="ui-first-child ui-last-child">
+               <a href="https://es.duolingo.com/" target="_self" data-role="button" id="beep">
+                 <h2> Ir a la página de Duolingo </h2>
+               </a>
+             </li>   
+           </ul>
+        </div>   
+       </div> 
+        <div align="center">
+         <h2>Khan Academy </h2>
+         <div style="width:100%"> 
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+             <li class="ui-first-child ui-last-child">
+               <a href="https://es.khanacademy.org/" target="_self" data-role="button" id="beep">
+                 <h2>  Ir a la página de Khan Academy</h2>
+               </a>
+             </li>   
+           </ul>
+        </div>   
+       </div> 
+        </div> 
+     </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+         <h4> Juan Luis Vázquez Morales </h4>
+        <h4>Proyecto Final </h4>
+         <img src="imagenes/logo.png" width="50" height="50">
+     </div>
+    </div>
+    </div>   
+       <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Datos del Desarrollador</h1>
+     </div>
+     <div data-role="content" align="center">
+       <div>
+          <img src="imagenes/fotoperfil.jpg" width="100%" height="100%">
+         <h2> Nombre: Juan Luis Vázquez Morales </h2>
+         <h2> Edad: 17 años </h2>
+         <h2> Semestre: 4to. Semestre </h2>
+         <h2> Grado: "F" </h2>
+         <h2> Submodulo: Desarrolla Aplicaciones Móviles (DAM) </h2>
+         <h2> Maestro: Lic.Jose Antonio Gomez Hernandez </h2>
+         <h2> Pasatiempos: Nadar, jugar futbol y salir con amigos.</h2>
+         <h2> Contacto: </h2> 
+           <a href="https://www.facebook.com/juanluis.vazquezmo?ref=bookmarks" target="_self">Ir a la Página de Facebook</a>
+     </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+         <h4> Juan Luis Vázquez Morales </h4>
+        <h4>Proyecto Final </h4>
+         <img src="imagenes/logo.png" width="50" height="50">
+     </div>
+    </div>
+    </div>   
+</body>
+</html>
+    

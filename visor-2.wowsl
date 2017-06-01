@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor-2</GalleryName>
+            <GallerySuffix>2</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>photo</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/convex/</ImageTemplate>
+            <ImageTemplateName>Convex</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10/wowslider2.html</PublishFileName>
+            <PublishIndex>wowslider2.html</PublishIndex>
+            <PublishPath>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#54acd2</TemplateColor>
+            <TemplateFont>Gurajada</TemplateFont>
+            <TemplateName>convex</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10/imagenes/taller-mecanica.jpg</url>
+                <title>taller-mecanica</title>
+                <filesize>1621581</filesize>
+            </Image>
+            <Image>
+                <url>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10/imagenes/taller-electricidad.jpg</url>
+                <title>taller-electricidad</title>
+                <filesize>1602475</filesize>
+            </Image>
+            <Image>
+                <url>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10/imagenes/laboratorios-computo.jpg</url>
+                <title>laboratorios-computo</title>
+                <filesize>1330936</filesize>
+            </Image>
+            <Image>
+                <url>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10/imagenes/laboratorios-multifunsional.jpg</url>
+                <title>laboratorios-multifunsional</title>
+                <filesize>1675255</filesize>
+            </Image>
+            <Image>
+                <url>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10/imagenes/ceremonia.jpg</url>
+                <title>ceremonia</title>
+                <filesize>2013355</filesize>
+            </Image>
+            <Image>
+                <url>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10/imagenes/sanitarios.jpg</url>
+                <title>sanitarios</title>
+                <filesize>1803447</filesize>
+            </Image>
+            <Image>
+                <url>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10/imagenes/estacionamiento.jpg</url>
+                <title>estacionamiento</title>
+                <filesize>2413536</filesize>
+            </Image>
+            <Image>
+                <url>E:/4to Semestre/DAM/2do Parcial/aplicaciones/app10/imagenes/canchas-futbol.jpg</url>
+                <title>canchas-futbol</title>
+                <filesize>3503143</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
